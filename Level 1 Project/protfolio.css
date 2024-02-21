@@ -1,0 +1,214 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+#logoimg {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 10%;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  list-style: none;
+  top: 30px;
+  left: 200px;
+  gap: 2rem;
+}
+.nav a {
+  color: black;
+  position: relative;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: large;
+  letter-spacing: 1px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+.nav #img1 {
+  width: 4%;
+  position: relative;
+  bottom: 3px;
+  border-radius: 6px;
+  aspect-ratio: 2/2;
+  object-fit: contain;
+  mix-blend-mode: darken;
+  cursor: pointer;
+}
+.head {
+  background-color: rgb(249, 169, 22);
+  height: 70px;
+  padding: 2px;
+  overflow-y: hidden;
+}
+.subcontainer1 {
+  display: initial;
+  margin-top: 100px;
+  gap: 3rem;
+}
+
+.subcontainer1 #shivu {
+  border-top: 3px solid orange;
+  border-bottom: 3px solid orange;
+  border-radius: 20px 0 20px 0;
+  opacity: 50%;
+  /* cursor: pointer; */
+}
+
+.subcontainer1 #shivu:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.subcontainer1 #subp {
+  font-family: cursive;
+  letter-spacing: 1px;
+  line-height-step: 5;
+}
+.subcontainer1 #fbp {
+  width: 3%;
+  margin-top: 67px;
+}
+.subcontainer1 #gitp {
+  width: 3.5%;
+  position: relative;
+  top: 2px;
+  left: 10px;
+}
+.subcontainer1 #instap {
+  width: 3%;
+  border-radius: 20px 20px 20px 20px;
+  margin-left: 19px;
+}
+.subcontainer1 #linkp {
+  width: 3%;
+  margin-left: 10px;
+}
+
+.subcontainermain {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/*section part*/
+.secdiv1 {
+  margin-top: 50px;
+}
+.secdiv1 h1 {
+  text-align: center;
+  text-decoration: underline orange;
+  text-underline-offset: 10px;
+}
+#aboutimg {
+  width: 18%;
+}
+.secdiv2 {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  /* bottom: 20px; */
+}
+.secdiv2 p {
+  text-align: center;
+  margin-top: 70px;
+}
+#aboutimg {
+  border-radius: 2px 0 2px 0 2px;
+}
+
+.subdivresume img {
+  width: 10%;
+  position: absolute;
+  left: 45%;
+  margin-top: 40px;
+}
+.subdivresume {
+  margin-top: 40px;
+}
+
+.resumedivmain img {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 26%;
+  width: 7%;
+  aspect-ratio: 6/8;
+  mix-blend-mode: color-burn;
+  padding-bottom: 30px;
+}
+.resumedivmain h1 {
+  display: flex;
+  flex-direction: column;
+  text-decoration: underline orange;
+  text-underline-offset: 10px;
+}
+.resumedivmain p {
+  position: absolute;
+  left: 44%;
+  margin-top: 50px;
+}
+.mydiv {
+  position: absolute;
+  left: 46%;
+  text-decoration: underline 2px orange;
+  text-underline-offset: 10px;
+  margin-top: 30px;
+}
+.mydiv h3 {
+  margin-top: 100px;
+}
+.mydiv1 {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 20px;
+}
+.mybtn {
+  margin-top: 30px;
+  width: 140px;
+  border-radius: 20px 20px;
+  padding: 5px;
+  background-color: rgb(246, 164, 12);
+}
+
+.mybtn:hover {
+  background-color: white;
+}
+
+.inputs {
+  position: relative;
+  top: 70px;
+  display: flex;
+  text-decoration: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 30px;
+  gap: 1rem;
+}
+
+#contact {
+  position: relative;
+  top: 75%;
+  left: 40%;
+  border-bottom: 2px solid orange;
+  text-underline-offset: 10px;
+  text-align: center;
+  display: inline-block;
+}
+#btn {
+  background-color: orange;
+  height: 30px;
+  width: 10vh;
+  border-radius: 14%;
+  box-shadow: 20%;
+}
+.copyr {
+  position: absolute;
+  top: 90%;
+  padding: 30px;
+}
